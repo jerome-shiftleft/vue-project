@@ -30,8 +30,8 @@ export default {
 </script>
 
 <template>
-  <h2>My Friends</h2>
+  <h1>My Friends</h1>
   <ul>
-    <li v-for="friend in friends" key="friend.id">{{ friend.name }}</li>
+    <friend-contact friend="friend" />
   </ul>
 </template>
