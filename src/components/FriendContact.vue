@@ -24,7 +24,7 @@ export default {
   },
   methods: {
     toggleDetails() {
-      this.detailsAreVisible != this.detailsAreVisible;
+      this.detailsAreVisible = !this.detailsAreVisible;
     },
   },
 };
