@@ -32,7 +32,7 @@ export default {
 <template>
   <header><h1>My Friends</h1></header>
   <ul>
-    <friend-contact friend="friend"></friend-contact>
+    <friend-contact v-for="friend in friends" :friend="friend"></friend-contact>
   </ul>
 </template>
 
