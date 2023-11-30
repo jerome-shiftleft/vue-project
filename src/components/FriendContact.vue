@@ -19,13 +19,19 @@ export default {
       friendIsFavorite: this.friend.isFavorite
     };
   },
+  watch: {
+    friend(newValue) {
+      // Update friendIsFavorite when the friend prop changes
+      this.friendIsFavorite = newValue.isFavorite;
+    },
+  },
   methods: {
     toggleDetails() {
       this.detailsAreVisible = !this.detailsAreVisible;
     },
     toggleFavorite() {
       this.friendIsFavorite = !this.friendIsFavorite;
-    }
+    },
   },
 };
 </script>
