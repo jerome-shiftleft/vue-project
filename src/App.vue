@@ -8,18 +8,21 @@ export default {
           name: "Manuel Lorenz",
           phone: "09263771993",
           email: "manuel@localhost.com",
+          isFavorite: false
         },
         {
           id: "julie",
           name: "Julie Jones",
           phone: "09275788259",
           email: "jule@localhost.com",
+          isFavorite: false
         },
         {
           id: "joy",
           name: "Joy Ortega",
           phone: "09457933309",
           email: "joy@localhost.com",
+          isFavorite: true
         },
       ],
     };
